@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metode String</title>
+</head>
+<body>
+    <h1 id="wrap"></h1>    
+    <h2 id="wrap2"></h2>    
+    <h3 id="wrap3"></h3>    
+    <h4 id="wrap4"></h4>    
+    <h5 id="wrap5"></h5>
+    <h5 id="wrap6"></h5>
+    <h5 id="wrap7"></h5>
+    <h5 id="wrap8"></h5>
+    <h5 id="wrap9"></h5>
+    <script>
+        /*Metode String 
+        1.lenght 
+        2.indexOF 
+        3.lastIndexof 
+        4.search 
+        5.charAt
+        6.topUpperCase()
+        7.toLowerCase()
+        8.replace
+        9.substring(start, end)
+        10.substr(start, lenght)
+        11.parseInt
+        12.parseFloat
+        */
+        // Deklarasi Variable        
+        var nama = 'Penguin Not not';         
+        var nama = '120.10';         
+        var hasil = nama.indexOf('n');         
+        var hasil2 = nama.lastIndexOf('n');         
+        var hasil3 = nama.search('n');         
+        var hasil4 = nama.charAt('1');         
+        var hasil5 = nama.toUpperCase();         
+        var hasil6 = nama.toLowerCase();         
+        var hasil7 = nama.replace('Not', 'xx');         
+        var hasil8 = nama.substring(0, 7);         
+        var hasil9 = nama.substr(2, 5);         
+        
+        document.getElementById("wrap").innerHTML = hasil;                
+        document.getElementById("wrap2").innerHTML = hasil2;
+        document.getElementById("wrap3").innerHTML = hasil3;
+        document.getElementById("wrap4").innerHTML = hasil4;
+        document.getElementById("wrap5").innerHTML = hasil5;
+        document.getElementById("wrap6").innerHTML = hasil6;
+        document.getElementById("wrap7").innerHTML = hasil7;
+        document.getElementById("wrap8").innerHTML = hasil8;
+        document.getElementById("wrap9").innerHTML = hasil9;
+    </script>
+</body>
+</html>
