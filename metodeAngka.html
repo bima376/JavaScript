@@ -12,6 +12,9 @@
     <h4 id="wrap4"></h4>
     <h4 id="wrap5"></h4>
     <h4 id="wrap6"></h4>
+    <h4 id="wrap7"></h4>
+    <h4 id="wrap8"></h4>
+    <h4 id="wrap9"></h4>
     <script>
         /* 
         1.toFixed()
@@ -19,11 +22,16 @@
         3.random()
         4.min()
         5.max()
+        6.round()
+        7.ceil()
+        8.floor()
         */
         // Deklarasi Variable        
-        var angka = 6;
+        var angka = 6; 
         var angka2 = 2;
         var angka3 = 100;
+        var x = 10; //range jarak
+        var y = 5; // batas minimal
 
         var angka_baru = angka.toFixed(2);
         var angka_baru2 = angka.toString() + angka2;
@@ -31,6 +39,9 @@
         var angka_baru4 = Math.random().toFixed(2) + angka;
         var angka_baru5 = Math.min(angka, angka2, angka3);
         var angka_baru6 = Math.max(angka, angka2, angka3);
+        var angka_baru7 = Math.round(107.424);
+        var angka_baru8 = Math.floor(137.324);
+        var angka_baru9 = Math.floor(Math.random()*x) + y;
         
         document.getElementById("wrap").innerHTML = angka_baru;        
         document.getElementById("wrap2").innerHTML = angka_baru2;
@@ -39,6 +50,9 @@
         document.getElementById("wrap4").innerHTML = angka_baru4;
         document.getElementById("wrap5").innerHTML = angka_baru5;
         document.getElementById("wrap6").innerHTML = angka_baru6;
+        document.getElementById("wrap7").innerHTML = angka_baru7;
+        document.getElementById("wrap8").innerHTML = angka_baru8;
+        document.getElementById("wrap9").innerHTML = angka_baru9;
     </script>
 </body>
 </html>
