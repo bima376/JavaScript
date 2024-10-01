@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metode Angka</title>
+</head>
+<body>
+    <h1 id="wrap"></h1>
+    <h2 id="wrap2"></h2>
+    <h3 id="wrap3"></h3>
+    <h4 id="wrap4"></h4>
+    <h4 id="wrap5"></h4>
+    <h4 id="wrap6"></h4>
+    <script>
+        /* 
+        1.toFixed()
+        2.toString()
+        3.random()
+        4.min()
+        5.max()
+        */
+        // Deklarasi Variable        
+        var angka = 6;
+        var angka2 = 2;
+        var angka3 = 100;
+
+        var angka_baru = angka.toFixed(2);
+        var angka_baru2 = angka.toString() + angka2;
+        var angka_baru3 = Math.random();
+        var angka_baru4 = Math.random().toFixed(2) + angka;
+        var angka_baru5 = Math.min(angka, angka2, angka3);
+        var angka_baru6 = Math.max(angka, angka2, angka3);
+        
+        document.getElementById("wrap").innerHTML = angka_baru;        
+        document.getElementById("wrap2").innerHTML = angka_baru2;
+        document.getElementById("wrap3").innerHTML = angka_baru3;
+        document.getElementById("wrap4").innerHTML = angka_baru4;
+        document.getElementById("wrap4").innerHTML = angka_baru4;
+        document.getElementById("wrap5").innerHTML = angka_baru5;
+        document.getElementById("wrap6").innerHTML = angka_baru6;
+    </script>
+</body>
+</html>
