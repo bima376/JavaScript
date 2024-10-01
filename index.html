@@ -6,11 +6,27 @@
     <title>Belajar JavaScript</title>
 </head>
 <body>
-    <h1 id="nomor"></h1>
+    <h1 id="1"></h1>
+    <h2 id="2"></h2>
+    <h3 id="3"></h3>
     <script>
-        // Deklarasi Variabel
+        /*  Deklarasi Variabel
+            ===================
+            Nama dimulai dengan huruf atau $ atau _
+            Nama itu case sensitive (besar kecil huruf berpengaruh)
+            Ada 'reserved words' yang tidak boleh dipakai 
+         */        
+
+        // Nama itu case sensitive        
         var angka = 123456789;         
-        document.getElementById('nomor').innerHTML = angka;
+        var Angka = 987654321;         
+
+        // tipe data string
+        var text = "Belajar JS"
+
+        document.getElementById('1').innerHTML = angka;
+        document.getElementById('2').innerHTML = Angka;
+        document.getElementById('3').innerHTML = text;
     </script>
 </body>
 </html>
