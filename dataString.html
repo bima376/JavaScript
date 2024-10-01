@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipe Data String</title>
+</head>
+<body>
+    <h1 id="text"></h1>
+    <div id="wrap"></div>
+    <div id="wraps"></div>
+    <script>        
+        // Deklarasi Variable
+        /* 
+        1.Nama dimulai dengan huruf atau $ atau _
+        2.Nama itu case sensitive (huruf besar kecil)
+        3.Ada 'reserved words' yang tidak boleh dipakai (semisal var var)
+        */
+        var tabungan = 10;
+        var Tabungan = 100;
+        
+        // tipe-data string
+        var text = 'tipe data string';
+
+        document.getElementById("text").innerHTML = text;
+        document.getElementById("wrap").innerHTML = tabungan;
+        document.getElementById("wraps").innerHTML = Tabungan;
+    </script>
+</body>
+</html>
