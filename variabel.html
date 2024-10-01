@@ -7,6 +7,8 @@
 </head>
 <body>
     <h1 id="wrap"></h1>
+    <h2 id="wrap2"></h2>
+    <h3 id="wrap3"></h3>
     <script>
         /* 
         1. memilih id wrap
@@ -15,8 +17,18 @@
 
         // Deklarasi Variable
         var x = 12345678;
+        var angka = 1000;
+        var angka2 = 123;
+        var text = "halo"
+        var text2 = " penguin"
+
+        // kiri = nama -> kanan = nilai
+        var angka_baru = angka + angka2;
+        var text_baru = text + text2;
         
         document.getElementById("wrap").innerHTML = x;
+        document.getElementById("wrap2").innerHTML = angka_baru;
+        document.getElementById("wrap2").innerHTML = text_baru;
     </script>
 </body>
 </html>
