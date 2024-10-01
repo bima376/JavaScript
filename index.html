@@ -3,38 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belajar JavaScript</title>
+    <title>Menghubungkan JS</title>
 </head>
 <body>
-    <h1 id="1"></h1>
-    <h2 id="2"></h2>
-    <h3 id="3"></h3>
-    <h4 id="4"></h4>
-    <h5 id="5"></h5>
+    <h1 id="wrap"></h1>
     <script>
-        /*  Deklarasi Variabel
-            ===================
-            Nama dimulai dengan huruf atau $ atau _
-            Nama itu case sensitive (besar kecil huruf berpengaruh)
-            Ada 'reserved words' yang tidak boleh dipakai 
-         */        
-
-        // Nama itu case sensitive, tipe data angka       
-        var angka = 123456789;         
-        var angka2 = 10 + 5;         
-        var Angka = 987654321; 
-                
-        // tipe data string
-        var text = "Belajar JS"
-        var text2 = "menyenangkan"
-        
-        var angka_baru = text + text2
-        
-        document.getElementById('1').innerHTML = angka;
-        document.getElementById('2').innerHTML = angka2;
-        document.getElementById('3').innerHTML = Angka;
-        document.getElementById('4').innerHTML = text;
-        document.getElementById('5').innerHTML = angka_baru;
+        document.getElementById("wrap").innerHTML = "Menghubungkan javascript dan kode pertama";
     </script>
 </body>
 </html>
