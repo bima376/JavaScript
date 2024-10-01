@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Matematika</title>
+</head>
+<body>
+    <h1 id="wrap"></h1>
+    <h2 id="wrap2"></h2>
+    <h3 id="wrap3"></h3>
+    <h3 id="wrap4"></h3>
+    <h4 id="wrap5 "></h4>   
+    <script>        
+        // Deklarasi Variable        
+        var angka = 6;
+        var angka2 = 2;        
+
+        // operator matematika + - / * %
+        var angka_baru = angka * angka2;
+        var angka_baru2 = angka + angka2;
+        var angka_baru3 = angka - angka2;
+        var angka_baru4 = angka % angka2;
+        var angka_baru5 = angka / angka2;
+        
+        angka++; //menambah 1
+        angka--; //mengurangi 1
+
+        document.getElementById("wrap").innerHTML = angka_baru;
+        document.getElementById("wrap2").innerHTML = angka_baru2;
+        document.getElementById("wrap3").innerHTML = angka_baru3;
+        document.getElementById("wrap4").innerHTML = angka_baru4;
+        document.getElementById("wrap5").innerHTML = angka_baru5;        
+    </script>
+</body>
+</html>
