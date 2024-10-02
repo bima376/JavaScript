@@ -27,8 +27,13 @@
         6.<= */
         var uang   = 2500;
         var barang = 2500;
+
         var uang2   = 2500;
         var barang2 = 5000;
+
+        var programmer  = 2500;
+        var designer    = 25000;
+        var barang  = 25000;
         
         if(uang == barang){
             document.getElementById("wrap").innerHTML = 'transaksi sukses!';        
@@ -38,6 +43,24 @@
             document.getElementById("wrap2").innerHTML = 'transaksi sukses!';
         }else{
             document.getElementById("wrap2").innerHTML = 'uang kurang';
+        }
+        
+        if(programmer == barang){
+            document.getElementById("wrap3").innerHTML = 'uang programmer tidak cukup';
+        }else if(designer == barang){
+            document.getElementById("wrap3").innerHTML = 'uang designer cukup';
+        }else{
+            document.getElementById("wrap3").innerHTML = 'uang tidak ada yang cukup';
+        }
+        
+        if(programmer == barang){
+            document.getElementById("wrap4").innerHTML = 'uang programmer tidak cukup';
+        }else if(designer == barang){
+            document.getElementById("wrap4").innerHTML = 'uang designer cukup';
+        }else if(designer > barang){
+            document.getElementById("wrap4").innerHTML = 'uang designer cukup';
+        }else{
+            document.getElementById("wrap4").innerHTML = 'uang tidak ada yang cukup';
         }
         
     </script>
