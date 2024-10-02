@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>metodeArray</title>
+</head>
+<body>
+    <h1 id="wrap"></h1>    
+    <h2 id="wrap2"></h2>    
+    <h3 id="wrap3"></h3>    
+    <h4 id="wrap4"></h4>    
+    <h5 id="wrap5"></h5>
+    <h5 id="wrap6"></h5>
+    <h5 id="wrap7"></h5>
+    <h5 id="wrap8"></h5>
+    <h5 id="wrap9"></h5>
+    <h6 id="wrap10"></h6>
+    <script>              
+        //sort, reverse, concat, lenght, join ("separator"),
+        var kotak = [
+            "baksooo",
+            "satee",
+            "ondemande"
+        ];
+        var kotak2 = [
+            "dijual",
+            "rumah",
+            "mewah"
+        ];
+
+        var kotak3 = [
+            "tumbuhan",
+            "orang",
+            "hewan"
+        ];
+        var kotak4 = [
+            "tumbuhan",
+            "orang",
+            "hewan"
+        ];
+        var kotak5 = [
+            "dijual",
+            "rumah",
+            "mewah"
+        ];
+        var total = kotak.concat(kotak2, kotak3);
+        
+        /* 
+        1.splice->add(mulai, dihapus?, isi)
+        2.splice->remove
+        3.pop
+        4.push
+        5.shift()
+        6.unshift()->menghapus dibagian awal dan menambah di bagian awal
+         */
+        kotak.splice(2, 1);
+        kotak3.pop();
+        kotak2.push("WOWOWO");
+        kotak4.shift();
+        kotak5.unshift('Ang');
+
+        document.getElementById("wrap").innerHTML = kotak.sort();
+        document.getElementById("wrap2").innerHTML = kotak2.reverse();
+        document.getElementById("wrap3").innerHTML = total;
+        document.getElementById("wrap4").innerHTML = total.length;
+        document.getElementById("wrap5").innerHTML = total.join("|");
+        document.getElementById("wrap6").innerHTML = kotak;
+        document.getElementById("wrap7").innerHTML = kotak3;
+        document.getElementById("wrap8").innerHTML = kotak2;
+        document.getElementById("wrap9").innerHTML = kotak4;
+        document.getElementById("wrap10").innerHTML = kotak5;
+    </script>
+</body>
+</html>
