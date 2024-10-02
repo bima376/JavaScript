@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case</title>
+</head>
+<body>
+    <h1 id="wrap"></h1>    
+    <h2 id="wrap2"></h2>    
+    <h3 id="wrap3"></h3>    
+    <h4 id="wrap4"></h4>    
+    <h5 id="wrap5"></h5>
+    <h5 id="wrap6"></h5>
+    <h5 id="wrap7"></h5>
+    <h5 id="wrap8"></h5>
+    <h5 id="wrap9"></h5>
+    <h6 id="wrap10"></h6>
+    <script>        
+        var nama = 'Penguin';
+        // switch case
+        switch (nama) {
+            case 'eni':
+                document.getElementById("wrap").innerHTML = 'namanya eni';                          
+                break;
+            case 'gg':
+                document.getElementById("wrap").innerHTML = 'namanya gg';                          
+                break;           
+                
+            default:                    
+                    document.getElementById("wrap").innerHTML = 'tidak ada yang tercatat';                          
+                break;
+        }
+        
+        switch (nama) {
+            case 'eni':
+                document.getElementById("wrap2").innerHTML = 'namanya eni';                          
+                break;
+            case 'gg':
+                document.getElementById("wrap2").innerHTML = 'namanya gg';                          
+                break;
+            case 'Penguin':
+                document.getElementById("wrap2").innerHTML = 'nama penguin';
+                break;
+                
+            default:                    
+                    document.getElementById("wrap2").innerHTML = 'tidak ada yang tercatat';                          
+                break;
+        }
+    </script>
+</body>
+</html>
+
+
