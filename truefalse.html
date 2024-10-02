@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operator logika</title>
+</head>
+<body>
+    <h1 id="wrap"></h1>    
+    <h2 id="wrap2"></h2>    
+    <h3 id="wrap3"></h3>    
+    <h4 id="wrap4"></h4>    
+    <h5 id="wrap5"></h5>
+    <h5 id="wrap6"></h5>
+    <h5 id="wrap7"></h5>
+    <h5 id="wrap8"></h5>
+    <h5 id="wrap9"></h5>
+    <h6 id="wrap10"></h6>
+    <script>        
+        var programmer  = 1000;
+        var designer    = 2500;
+        var makan       = 2500;   
+        
+        /* 
+        if (syarat){
+            kalau terpenuhi
+        }else{
+            kalau tidak terpenuhi
+        }
+         */
+
+        //false || true->true
+        if(programmer == makan || true){
+            document.getElementById("wrap").innerHTML = 'uang cukup';
+        }else{
+            document.getElementById("wrap").innerHTML = 'uang tidak cukup';
+        }
+
+        //false || false->false
+        if(programmer == makan || false){
+            document.getElementById("wrap2").innerHTML = 'uang cukup';
+        }else{
+            document.getElementById("wrap2").innerHTML = 'uang tidak cukup';
+        }
+        
+        if(true){
+            document.getElementById("wrap3").innerHTML = 'uang cukup';
+        }else{
+            document.getElementById("wrap3").innerHTML = 'uang tidak cukup';
+        }
+        
+        if(false){
+            document.getElementById("wrap4").innerHTML = 'uang cukup';
+        }else{
+            document.getElementById("wrap4").innerHTML = 'uang tidak cukup';
+        }
+        
+    </script>
+</body>
+</html>
