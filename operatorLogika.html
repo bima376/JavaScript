@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operator logika</title>
+</head>
+<body>
+    <h1 id="wrap"></h1>    
+    <h2 id="wrap2"></h2>    
+    <h3 id="wrap3"></h3>    
+    <h4 id="wrap4"></h4>    
+    <h5 id="wrap5"></h5>
+    <h5 id="wrap6"></h5>
+    <h5 id="wrap7"></h5>
+    <h5 id="wrap8"></h5>
+    <h5 id="wrap9"></h5>
+    <h6 id="wrap10"></h6>
+    <script>
+        // if els
+        /* operator logika 
+        1.== 
+        2.!=
+        3.>
+        4.>=
+        5.<
+        6.<= */
+        var uang   = 2500;
+        var barang = 2500;
+        
+        var uang2   = 6000;
+        var barang2 = 5000;
+        
+        if(uang == barang){
+            document.getElementById("wrap").innerHTML = 'transaksi sukses!';        
+        }
+
+        if(uang2 != barang2){
+            document.getElementById("wrap2").innerHTML = 'uang kurang!';
+        }else{
+            document.getElementById("wrap2").innerHTML = 'transaksi berhasil';
+        }
+        
+        if(uang2 >= barang2){
+            document.getElementById("wrap3").innerHTML = 'uang cukup';
+        }else{
+            document.getElementById("wrap3").innerHTML = 'uang tidak cukup';
+        }
+
+        if(uang > barang){
+            document.getElementById("wrap3").innerHTML = 'uang cukup';
+        }else{
+            document.getElementById("wrap3").innerHTML = 'uang tidak cukup';
+        }
+        
+    </script>
+</body>
+</html>
