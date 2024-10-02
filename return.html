@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>return</title>
+</head>
+<body>
+    <h1 id="wrap"></h1>    
+    <h2 id="wrap2"></h2>    
+    <h3 id="wrap3"></h3>    
+    <h4 id="wrap4"></h4>    
+    <h5 id="wrap5"></h5>
+    <h5 id="wrap6"></h5>
+    <h5 id="wrap7"></h5>
+    <h5 id="wrap8"></h5>
+    <h5 id="wrap9"></h5>
+    <script>
+        //return pada javascript
+        function printText() {
+            return "return pada JS"
+        }
+        function print() {
+            var a = "belajar"
+            var b = "js"
+            return a+b;
+        }
+        function menjumlahkan(angka1, angka2) {            
+            return angka1 + angka2;
+        }
+
+        var text =printText() + "yang baru";
+        document.getElementById("wrap").innerHTML = text;
+
+        var text =print();
+        document.getElementById("wrap2").innerHTML = text;
+
+        var text =menjumlahkan(20,20);
+        document.getElementById("wrap3").innerHTML = text;
+    </script>
+</body>
+</html>
