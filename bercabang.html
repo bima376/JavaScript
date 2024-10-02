@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bercabang</title>
+</head>
+<body>
+    <h1 id="wrap"></h1>    
+    <h2 id="wrap2"></h2>    
+    <h3 id="wrap3"></h3>    
+    <h4 id="wrap4"></h4>    
+    <h5 id="wrap5"></h5>
+    <h5 id="wrap6"></h5>
+    <h5 id="wrap7"></h5>
+    <h5 id="wrap8"></h5>
+    <h5 id="wrap9"></h5>
+    <h6 id="wrap10"></h6>
+    <script>        
+        var programmer = 300000;
+        var programmer2 = 30000;
+        var designer    = 20000;
+        var barang      = 25000;
+        
+        if(programmer > barang){
+            if (programmer > barang*2) {                
+                document.getElementById("wrap").innerHTML = 'programmer bisa beli 2 barang';
+            }else{
+                document.getElementById("wrap").innerHTML = 'programmer bisa beli 1 barang';
+            }
+        }  
+        if(programmer2 > barang){
+            if (programmer2 > barang*2) {                
+                document.getElementById("wrap2").innerHTML = 'programmer bisa beli 2 barang';
+            }else{
+                document.getElementById("wrap2").innerHTML = 'programmer bisa beli 1 barang';
+            }
+        }  
+    </script>
+</body>
+</html>
+
+
