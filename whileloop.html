@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for loo[]</title>
+</head>
+<body>
+    <h1 id="wrap"></h1>    
+    <h2 id="wrap2"></h2>    
+    <h3 id="wrap3"></h3>    
+    <h4 id="wrap4"></h4>    
+    <h5 id="wrap5"></h5>
+    <h5 id="wrap6"></h5>
+    <h5 id="wrap7"></h5>
+    <h5 id="wrap8"></h5>
+    <h5 id="wrap9"></h5>
+    <h6 id="wrap10"></h6>
+    <script>        
+        /* PENGULANGAN
+        1.for loop
+        2. for  (mulai; sampai; perpindahan)
+        3.while loop
+        */
+
+        // for
+        var i = 0;
+        var text = "";
+        
+        while ( i < 5 ) {
+            text += "<br>angkanya adalah" + i;
+            i++;
+        }
+        document.getElementById('wrap').innerHTML = text;
+    </script>
+</body>
+</html>
+
+
